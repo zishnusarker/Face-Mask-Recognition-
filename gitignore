@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# PyTorch model files (large — use Git LFS or Releases instead)
+*.pth
+*.pt
+*.onnx
+
+# Dataset (too large for Git)
+*.csv
+*.zip
+*.tar.gz
+
+# Logs
+*.log
+logs/
+runs/
